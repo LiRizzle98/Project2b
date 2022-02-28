@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/rajdhani-v14-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/rajdhani-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/rajdhani-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/rajdhani-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/rajdhani-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/rajdhani-v14-latin-regular.svg#Rajdhani') format('svg'); /* Legacy iOS */
+  }
+
+* {
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    font-family: 'Rajdhani';
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    padding: 0.5em;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0.5em;
+    text-transform: uppercase
+}
+
+footer {
+    margin: 4em;
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
+}
+
+a {
+   transition: color 0.2s;
+}
+
+a:hover {
+    color: #FF5100
+}
+
+iframe.video {
+    border-radius: 0.75em;
+    width: 75%;
+    height: 30em;
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+}
+
+iframe.album {
+    border-radius: 0.75em;
+    width: 68%;
+    height: 15em;
+    margin-right: 16%;
+    margin-left: 16%;
+    margin-bottom: 2em;
+}
+
+iframe.single {
+    display: inline-block;
+    border-radius: 0.75em;
+    margin: 0em 1em;
+}
+
+.navlink {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+}
+
+.right {
+    float: right;
+}
+
+.social-link {
+    padding: 0.2em;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.social-icon {
+    width: 1em;
+    height: 1em;
+    transition: color 0.2s;
+}
+
+.social-icon:hover {
+    color: #FF5100
+}
+
+#listen-now-div {
+    display: inline-block;
+    background-image: url('barcode_album_cover.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45em;
+    text-align: center;
+}
+
+#listen-now {
+    position: relative;
+    top: 2em;
+    background-color: transparent;
+    font-size: 1.5em;
+    text-decoration: none;
+    border: thin white solid;
+    border-radius: 0.25em;
+    padding: 0.1em 0.2em;
+}
+
+#about {
+    margin: 2em 30%;
+    text-align: justify;
+    display: inline-block;
+}
+
+#barcode {
+    padding: 0em 0.5em 0.5em
+}
+
+#videos {
+    margin: 2em 0em;
+}
+
+#singles {
+    margin: 0% 15%;
+}
+
+#contact {
+    text-decoration: none;
+    display: block;
+    float: left;
+}
+
+#social-links {
+    width: 15%;
+    display: inline-block;
+    position: absolute;
+    left: 42.5%;
+}
+
+#email-form {
+    display: block;
+    float: right;
+}
+
+#email-form > input {
+    display: block;
+    margin: 0.7em;
+    border-radius: 0.25em;
+}
+
+#submit-button {
+    float: right;
+}
